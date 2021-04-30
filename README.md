@@ -16,12 +16,12 @@ The purpose of this application is to scan product barcodes and help the user re
 - As a user, I want to be able to edit my saved barcodes. This means I can rate, delete, favorite my saved barcodes.
  
 ## Design
-<img src="Images/Homescreen.PNG" alt="Home" height="150" width="750"/>
+<img src="Images/Homescreen.PNG" alt="Home" height="750" />
 ### Camera Screen
 The camera screen is designed such that the user can scan a barcode and save that data
-<img src="Images/Camerascreen.PNG" alt="Camera" height="150" width="750"/>
+<img src="Images/Camerascreen.PNG" alt="Camera" height="150"/>
 ### Map Screen
 The map screen is designed so that the user can view their past saved QRcode locations. On picture taken, a tracker entry is made in our database so the user can load all their entries.
-<img src="Images/Mapscreen.PNG" alt="Map" height="150" width="750"/>
+<img src="Images/Mapscreen.PNG" alt="Map" height="150"/>
 ### Backend/ Persistance
 The backend used for this application is Firebase. I use the react native package "react-native-firebase" in order to interface react native with Firebase.
